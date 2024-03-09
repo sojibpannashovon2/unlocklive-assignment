@@ -3,18 +3,60 @@
 @tailwind utilities;
 
 @layer base {
-  /* @font-face {
-    font-family: "My-Font";
+  @font-face {
+    font-family: "Abril";
     font-weight: 700;
     src: url("../public/Fonts/Fonts/Abril/Abril_Display_Black.otf")
         format("otf"),
       url("../public/Fonts/Fonts/Abril/Abril_Display_BlackItalic.otf")
         format("otf"),
-      url("../public/Fonts/Fonts/Abril/Abril_Display_Bold.otf") format("otf");
-  } */
+      url("../public/Fonts/Fonts/Abril/Abril_Display_Bold.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Display_ExtraBold.otf")
+        format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Display_ExtraBoldItalic.otf")
+        format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Display_Italic.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Display_Regular.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Display_SemiBold.otf")
+        format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Fatface.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Fatface_Italic.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_Bold.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_BoldItalic.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_ExtraBold.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_ExtraBoldItalic.otf")
+        format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_Italic.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_Regular.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_SemiBold.otf") format("otf"),
+      url("../public/Fonts/Fonts/Abril/Abril_Text_SemiBoldItalic.otf")
+        format("otf");
+  }
   @font-face {
     font-family: "Bakilda";
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
     src: url("/Fonts/Fonts/Bakilda/bakilda-histori.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "Value Sans Pro";
+    font-weight: 800;
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-Black.ttf")
+      format("ttf");
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-BlackItalic.ttf")
+      format("ttf");
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-Bold.ttf")
+      format("ttf");
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-BoldItalic.ttf")
+      format("ttf");
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-Italic.ttf")
+      format("ttf");
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-Medium.ttf")
+      format("ttf");
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-MediumItalic.ttf")
+      format("ttf");
+    src: url("../public/Fonts/Fonts/Value Sans Pro/ValueSansPro-Regular.ttf")
+      format("ttf");
   }
 }
