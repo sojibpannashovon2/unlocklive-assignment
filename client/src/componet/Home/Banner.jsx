@@ -11,7 +11,7 @@ const Banner = () => {
 
     <>
       <Container>
-        <div className="banner    border border-red-500   h-full mb-32 ">
+        <div className="banner    border border-red-500   h-full mb-4  ">
           <div className="xl:lg:md:pl-[100px] xl:lg:md:flex">
             <div className="xl:lg:md:w-1/2  xl:lg:md:pt-[160px] xl:lg:md:p-12">
               <h3 className="font-Value_Sans_Pro_Two text-xl text-wood-bark">
