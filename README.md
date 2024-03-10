@@ -11,17 +11,15 @@
 
 ##Responive navbar added to the MainLayout
 
-
+         https://i.ibb.co/z8KqD9D/Screenshot-2024-03-10-123129.png
 
 ##Banner Section
-![Screenshot 2024-03-10 214200](https://github.com/sojibpannashovon2/unlocklive-assignment/assets/108423803/d10d6f86-b314-4f02-a5ab-49354cf3c7d5)
 
 #At first export require image from given figma design
 
          "C:\Users\Arif\Pictures\Screenshots\Screenshot 2024-03-10 214200.png"
-         ![Screenshot 2024-03-10 214200](https://github.com/sojibpannashovon2/unlocklive-assignment/assets/108423803/7aad987d-d058-4580-8739-d3bd57cbdee9)
 
-![Screenshot 2024-03-11 013451](https://github.com/sojibpannashovon2/unlocklive-assignment/assets/108423803/1fc9dfc9-653c-415a-84bd-518036659b53)
+#Second Section
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

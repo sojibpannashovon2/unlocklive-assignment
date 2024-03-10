@@ -11,28 +11,29 @@ const Banner = () => {
 
     <>
       <Container>
-        <div className="banner    border border-red-500   h-full mb-4  ">
-          <div className="xl:lg:md:pl-[100px] xl:lg:md:flex">
-            <div className="xl:lg:md:w-1/2  xl:lg:md:pt-[160px] xl:lg:md:p-12">
+        <div className="banner    h-full   ">
+          <div className="xl:lg:md:pl-[40px] xl:lg:md:flex">
+            <div className="xl:lg:md:w-1/2  xl:lg:md:pt-[160px] ">
               <h3 className="font-Value_Sans_Pro_Two text-xl text-wood-bark">
                 Welcome to our
               </h3>
-              {/* font-family: Bakilda Histori; font-size: 110px; font-weight: 400;
-              line-height: 124px; letter-spacing: 0.01em; text-align: left; */}
-              <h1 className="  xl:lg:md:text-[110px] font-normal text-[#270A05] font-custom">
+              <h1 className="text-4xl sm:text-4xl lg:text-[110px] xl:text-[110px] font-normal text-[#270A05] font-custom my-[40px]">
                 Unlocklive
               </h1>
+              {/* <h1 className="text-4xl sm:text-4xl  xl:lg:md:text-[110px] font-normal text-[#270A05] font-custom">
+                Unlocklive
+              </h1> */}
               {/* Weight 400 Size 44px */}
-              <h3 className="w-full font-custom text-2xl font-normal xl:lg:md:text-[44px] text-wood-bark ">
+              <h3 className="w-fit font-custom text-2xl sm:text-2xl font-normal xl:text-[44px] lg:text-[44px] text-wood-bark ">
                 Elevating Your Coffee Experience
               </h3>
-              <p className="font-Value_Sans_Pro_one text-[16px] text-wood-bark py-[30px]">
+              <p className="font-Value_Sans_Pro_one text-[16px] text-wood-bark py-[20px]">
                 Unlocklive embodies our commitment to transforming the simple
                 act of sipping coffee into a refined and memorable journey. At
                 Epicurean, we take pride in curating an exceptional coffee
                 experience that transcends the ordinary.
               </p>
-              <div className="xl:lg:md:flex justify-between items-center xl:lg:md:gap-14 mx-auto">
+              <div className="xl:lg:md:flex justify-between items-center xl:lg:md:gap-6 mx-auto">
                 {/* width: Hug (211px) height: Hug (52px) top: 652px left: 277px
                 padding: 18px, 30px, 18px, 30px border-radius: 12px gap: 10px */}
                 <div className=" text-center">
@@ -41,7 +42,7 @@ const Banner = () => {
                   </button>
                 </div>
 
-                <div className="flex  items-center xl:lg:md:justify-between ">
+                <div className="flex  items-center xl:lg:md:justify-between gap-10 ">
                   <div className="flex  items-center xl:lg:md:justify-between  my-6 xl:lg:md:my-0 ">
                     <img
                       className="border-[3px] border-[#FFFFFF]"
