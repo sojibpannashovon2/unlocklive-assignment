@@ -1,4 +1,23 @@
-# React + Vite
+#Unloclive
+##Md Arifur Rahman
+##Email: mdarifur554@gmail.com
+##Mobile: +88016
+
+#Firstly Installtion react vite app with tailwind css.
+
+#Include provided local font file into project public folder, then connect the fonts family with multiple different font family name to index.css file and tailwind config.js file
+
+##Nabar component
+
+##Responive navbar added to the MainLayout
+
+https://i.ibb.co/z8KqD9D/Screenshot-2024-03-10-123129.png
+
+##Banner Section
+
+#At first export require image from given figma design
+
+![alt text](image-1.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

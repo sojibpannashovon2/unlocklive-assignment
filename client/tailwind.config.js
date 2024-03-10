@@ -4,7 +4,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Bakilda", "Value Sans Pro", "Abril"],
+        custom: ["Bakilda"],
+        Value_Sans_Pro_one: ["Value Sans Pro one"],
+        Value_Sans_Pro_Two: ["Value_Sans_Pro_Two"],
+      },
+
+      colors: {
+        "wood-bark": "#270A05",
+        "coffee-color": "#86371C",
+        "custom-blue": "#344D67",
       },
     },
   },
