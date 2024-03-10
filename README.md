@@ -11,10 +11,10 @@
 
 ##Responive navbar added to the MainLayout
 
-         https://i.ibb.co/z8KqD9D/Screenshot-2024-03-10-123129.png
-![Screenshot 2024-03-10 123129](https://github.com/sojibpannashovon2/unlocklive-assignment/assets/108423803/b7378be6-9815-46f0-a45e-67adf0850e0b)
+
 
 ##Banner Section
+![Screenshot 2024-03-10 214200](https://github.com/sojibpannashovon2/unlocklive-assignment/assets/108423803/d10d6f86-b314-4f02-a5ab-49354cf3c7d5)
 
 #At first export require image from given figma design
 
