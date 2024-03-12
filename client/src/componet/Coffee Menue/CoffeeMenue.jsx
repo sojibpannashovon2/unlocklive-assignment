@@ -10,12 +10,12 @@ const CoffeeMenue = () => {
   return (
     <>
       <Container>
-        <div className="h-full xl:lg:md:h-[800px] border-[2px] border-green-500 ">
-          <div className="relative  pt-32">
+        <div className="h-full xl:lg:md:h-[800px] ">
+          <div className="relative  ">
             <div className="absolute bottom-0 right-0">
               <img src={coffee_bean} alt="" />
             </div>
-            <div className="xl:lg:md:pl-[40px] xl:lg:md:flex  ">
+            <div className="xl:lg:md:pl-[40px] xl:lg:md:flex   mx-auto w-[85%]">
               <div className="  xl:lg:md:pt-[40px]">
                 <h2 className="flex flex-row flex-nowrap items-center  ">
                   <span className="flex-grow block border-t border-[#86371C]"></span>
