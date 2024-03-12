@@ -34,7 +34,7 @@ const ShowCase = () => {
   return (
     <>
       <Container>
-        <div className="h-[1254px] border border-orange-400 ">
+        <div className=" h-full xl:lg:md:h-[984px] ">
           <div className="text-center">
             <h3 className="font-lemonada text-xl text-[#86371C]  border-[#86371C]">
               <span className="divide-y"></span> Showcase
@@ -54,12 +54,24 @@ const ShowCase = () => {
               <div label="All" className="">
                 <div className="xl:lg:md:flex gap-4">
                   <img className="w-[364px]" src={gallery1} alt="" />
-                  <img className="w-[812px]" src={gallery2} alt="" />
+                  <img
+                    className="w-[812px] xl:lg:md:my-0 mt-2"
+                    src={gallery2}
+                    alt=""
+                  />
                 </div>
                 <div className="xl:lg:md:flex gap-4 mt-4">
-                  <img className="w-[296px]" src={gallery3} alt="" />
-                  <img className="w-[486px]" src={gallery4} alt="" />
-                  <img className="w-[378px]" src={gallery5} alt="" />
+                  <img
+                    className=" w-full xl:lg:md:w-[296px]"
+                    src={gallery3}
+                    alt=""
+                  />
+                  <img
+                    className="w-[486px] xl:lg:md:my-0 mt-2"
+                    src={gallery4}
+                    alt=""
+                  />
+                  <img className="w-[378px] my-2" src={gallery5} alt="" />
                 </div>
               </div>
               <div label="Burger" className="">
