@@ -14,7 +14,7 @@ const Banner = () => {
         <div className="banner    h-full   ">
           <div className="xl:lg:md:pl-[40px] xl:lg:md:flex">
             <div className="xl:lg:md:w-1/2  xl:lg:md:pt-[160px] ">
-              <h3 className="font-Value_Sans_Pro_Two text-xl text-wood-bark">
+              <h3 className="font-lemonada text-xl text-wood-bark">
                 Welcome to our
               </h3>
               <h1 className="text-4xl sm:text-4xl lg:text-[110px] xl:text-[110px] font-normal text-[#270A05] font-custom my-[40px]">

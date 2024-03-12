@@ -11,7 +11,7 @@ const ShowCase = () => {
 
     return (
       <div className="w-full">
-        <div className="flex ">
+        <div className="xl:lg:md:flex text-center ">
           {children.map((child, index) => (
             <button
               key={index}
@@ -43,7 +43,7 @@ const ShowCase = () => {
             <h3 className=" text-center font-custom text-2xl sm:text-2xl font-normal xl:text-[44px] lg:text-[44px] text-wood-bark py-[20px]">
               Our Chefs New Creations
             </h3>
-            <p className="font-Value_Sans_Pro_one text-[16px] text-wood-bark pb-[20px] w-[600px] text-justify mx-auto">
+            <p className="font-Value_Sans_Pro_one text-[16px] text-wood-bark pb-[20px] xl:lg:md:w-[600px] text-center mx-auto">
               Behold the extraordinary creations born from the synergy of our
               users' ingenuity and the transformative power of AI, a testament
               to boundless innovation.
@@ -52,11 +52,11 @@ const ShowCase = () => {
           <div className=" mt-8 w-[95%] mx-auto ">
             <Tab>
               <div label="All" className="">
-                <div className="flex gap-4">
+                <div className="xl:lg:md:flex gap-4">
                   <img className="w-[364px]" src={gallery1} alt="" />
                   <img className="w-[812px]" src={gallery2} alt="" />
                 </div>
-                <div className="flex gap-4 mt-4">
+                <div className="xl:lg:md:flex gap-4 mt-4">
                   <img className="w-[296px]" src={gallery3} alt="" />
                   <img className="w-[486px]" src={gallery4} alt="" />
                   <img className="w-[378px]" src={gallery5} alt="" />
