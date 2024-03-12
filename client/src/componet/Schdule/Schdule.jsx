@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../Shared/Container";
-
+import { BsPlayCircle } from "react-icons/bs";
 const Schdule = () => {
   return (
     <>
@@ -8,7 +8,12 @@ const Schdule = () => {
         <div className=" xl:lg:md:h-[246px] bg-[#FFFAF2] xl:lg:md:flex justify-around">
           {/* width: 319px height: 326px top: 980px left: 264px border-radius: 0px,
           0px, 12px, 12px */}
-          <div className="w-[319px] h-[326px] border-[2px] rounded-[12px] shadow-sm bg-[#86371C] schedule "></div>
+          <div className="relative w-[319px] h-[326px] border-[2px] rounded-[12px] shadow-sm bg-[#86371C] schedule ">
+            <button className="flex items-center gap-4 absolute bottom-4 left-8   font-Abril text-[#F2EFDF] text-[24px] hover:bg-white hover:bg-opacity-30">
+              <BsPlayCircle className="text-[#F2EFDF] text-[24px] h-[60px] w-[60px]" />
+              Play Intro Video
+            </button>
+          </div>
           <div className=" my-auto text-center py-4 ">
             <h1 className="font-Abril text-[24px] font-semibold text-wood-bark">
               Our Opening Hours
