@@ -4,6 +4,7 @@ import coffee1 from "../../assets/banner/Ellipse 1549.svg";
 import coffee2 from "../../assets/banner/Ellipse 1550.svg";
 import coffee3 from "../../assets/banner/Ellipse 1551.svg";
 import Container from "../Shared/Container";
+import { PiDotsThreeOutlineThin } from "react-icons/pi";
 const Banner = () => {
   return (
     // pt-[650px]
@@ -13,8 +14,8 @@ const Banner = () => {
       <Container>
         <div className="banner    h-full   ">
           <div className="xl:lg:md:pl-[40px] xl:lg:md:flex">
-            <div className="xl:lg:md:w-1/2  xl:lg:md:pt-[160px] ">
-              <h3 className="font-lemonada text-xl text-wood-bark">
+            <div className="xl:lg:md:w-1/2  xl:lg:md:pt-[140px] ">
+              <h3 className="font-lemonada text-xl text-wood-bark pb-[30px]">
                 Welcome to our
               </h3>
               <h1 className="text-4xl sm:text-4xl lg:text-[110px] xl:text-[110px] font-normal text-[#270A05] font-custom my-[40px]">
@@ -65,6 +66,11 @@ const Banner = () => {
                     <p>Tasty Variant Coffee</p>
                   </div>
                 </div>
+              </div>
+              <div className="flex mt-4 items-center ">
+                <PiDotsThreeOutlineThin className="text-3xl" />
+                <PiDotsThreeOutlineThin className="text-3xl " />
+                <div className="h-[7px] w-[7px] border border-[#270A05] rounded-full bg-wood-bark"></div>
               </div>
             </div>
             <div className="xl:lg:md:w-1/2 xl:lg:md:p-12 ">

@@ -10,12 +10,12 @@ const CoffeeMenue = () => {
   return (
     <>
       <Container>
-        <div className="h-full xl:lg:md:h-[800px] ">
+        <div className="h-full xl:lg:md:h-[800px] mt-8 xl:lg:md:mt-0 ">
           <div className="relative  ">
             <div className="absolute bottom-0 right-0">
               <img src={coffee_bean} alt="" />
             </div>
-            <div className="xl:lg:md:pl-[40px] xl:lg:md:flex   mx-auto w-[85%]">
+            <div className="xl:lg:md:pl-[40px] xl:lg:md:flex   mx-auto w-[95%]">
               <div className="  xl:lg:md:pt-[40px]">
                 <h2 className="flex flex-row flex-nowrap items-center  ">
                   <span className="flex-grow block border-t border-[#86371C]"></span>
@@ -37,7 +37,7 @@ const CoffeeMenue = () => {
                       <img className="" src={menu1} alt="" />
                     </div>
                     <div className="ml-[20px]">
-                      <h1 className="font-Abril text-[24px]">
+                      <h1 className="font-Abril xl:lg:md:text-[24px]">
                         Double Espresso x2
                       </h1>
                       <p className="font-Value_Sans_Pro_one text-[14px] ">
@@ -58,7 +58,7 @@ const CoffeeMenue = () => {
                       <img className="" src={menu3} alt="" />
                     </div>
                     <div className="ml-[20px]">
-                      <h1 className="font-Abril text-[24px]">
+                      <h1 className="font-Abril xl:lg:md:text-[24px]">
                         Hazelnut Heaven Latte
                       </h1>
                       <p className="font-Value_Sans_Pro_one text-[14px] ">
@@ -79,7 +79,7 @@ const CoffeeMenue = () => {
                       <img className="" src={menu2} alt="" />
                     </div>
                     <div className="ml-[20px]">
-                      <h1 className="font-Abril text-[24px]">
+                      <h1 className="font-Abril xl:lg:md:text-[24px]">
                         Salted Caramel Cold Brew
                       </h1>
                       <p className="font-Value_Sans_Pro_one text-[14px] ">
@@ -100,7 +100,7 @@ const CoffeeMenue = () => {
                       <img className="" src={menu4} alt="" />
                     </div>
                     <div className="ml-[20px]">
-                      <h1 className="font-Abril text-[24px]">
+                      <h1 className="font-Abril xl:lg:md:text-[24px]">
                         Coconut Cream Delight (Summer)
                       </h1>
                       <p className="font-Value_Sans_Pro_one text-[14px] ">

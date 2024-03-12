@@ -36,7 +36,7 @@ const ShowCase = () => {
       <Container>
         <div className=" h-full xl:lg:md:h-[984px] ">
           <div className="text-center">
-            <h3 className="font-lemonada text-xl text-[#86371C]  border-[#86371C]">
+            <h3 className="font-lemonada text-xl text-[#86371C] border-b w-36 mx-auto  border-[#86371C] pb-2">
               <span className="divide-y"></span> Showcase
             </h3>
 

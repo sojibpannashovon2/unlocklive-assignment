@@ -32,7 +32,7 @@ const NewRecipe = () => {
           <div>
             <div className="xl:lg:md:ml-[110px] w-[80%] mb-10">
               <h3 className="font-lemonada text-xl text-[#86371C]  border-[#86371C]">
-                <span className="divide-y"></span> New Recepies
+                ----<span className="divide-y"></span> New Recepies
               </h3>
 
               <h3 className="  font-custom text-2xl sm:text-2xl font-normal xl:text-[28px] lg:text-[44px] text-wood-bark py-[20px]">

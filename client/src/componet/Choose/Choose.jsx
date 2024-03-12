@@ -15,7 +15,7 @@ const Choose = () => {
             <div className="xl:lg:md:pl-[40px] xl:lg:md:flex">
               <div className="xl:lg:md:w-6/12  xl:lg:md:pt-[160px] ">
                 <h3 className="font-lemonada text-xl text-[#86371C]">
-                  ------ <span className="leading-3"></span> why choose us
+                  -------- <span className="leading-3"></span> why choose us
                 </h3>
 
                 <h3 className="w-fit font-custom text-2xl sm:text-2xl font-normal xl:text-[44px] lg:text-[44px] text-wood-bark py-[20px]">
