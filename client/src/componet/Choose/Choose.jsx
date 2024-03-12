@@ -2,14 +2,13 @@ import React from "react";
 import Container from "../Shared/Container";
 import coffee_cup from "../../assets/choose/Vector.svg";
 import coffee_layer from "../../assets/choose/Layer 1 5.svg";
-import coffee2 from "../../assets/banner/Ellipse 1550.svg";
-import coffee3 from "../../assets/banner/Ellipse 1551.svg";
+
 const Choose = () => {
   return (
     <>
       <Container>
-        <div className="h-full xl:lg:md:h-[895px] border-[2px] border-green-500  ">
-          <div className="relative  mt-24">
+        <div className="h-full xl:lg:md:h-[895px]   ">
+          <div className="relative  pt-32">
             <div className="absolute right-0 ">
               <img src={coffee_cup} alt="" />
             </div>

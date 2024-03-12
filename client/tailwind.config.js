@@ -8,6 +8,7 @@ export default {
         Value_Sans_Pro_one: ["Value Sans Pro one"],
         Value_Sans_Pro_Two: ["Value_Sans_Pro_Two"],
         Abril: ["Abril"],
+        lemonada: ["lemonada"],
       },
 
       colors: {

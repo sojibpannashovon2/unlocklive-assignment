@@ -49,6 +49,10 @@
     src: url("/Fonts/Fonts/Value Sans Pro/ValueSansPro-MediumItalic.ttf");
   }
   @font-face {
+    font-family: "lemonada";
+    src: url("../public/Fonts/Fonts/lemonada/Lemonada-Regular.ttf");
+  }
+  @font-face {
     font-family: "Value Sans Pro 99";
     src: url("/Fonts/Fonts/Value Sans Pro/ValueSansPro-Black.ttf"),
       url("/Fonts/Fonts/Value Sans Pro/ValueSansPro-BlackItalic.ttf"),
